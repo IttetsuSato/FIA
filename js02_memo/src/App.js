@@ -4,9 +4,9 @@ import "./App.css";
 function App() {
   const getData = () => {
     const data = localStorage.getItem("test");
-    if(data) {
+    if (data) {
       return JSON.parse(data);
-    }else {
+    } else {
       return [];
     }
   };
@@ -76,8 +76,6 @@ function App() {
           <p>追加したもの: {item.email}</p>
         </div>
       ))}
-
-      {/* ここから書いていきます */}
     </div>
   );
 }
