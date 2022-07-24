@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# gitで保存するときに、xxxだけはネット上に送りたくない！というときに使うもの
+.env
