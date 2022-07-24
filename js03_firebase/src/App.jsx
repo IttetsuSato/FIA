@@ -18,7 +18,7 @@ function App() {
       title: "",
     },
   ]);
-  const [titleValue, setTitleValue] = useState<string>();
+  const [titleValue, setTitleValue] = useState();
   console.log("data: ", data);
 
   useEffect(() => {
@@ -30,6 +30,8 @@ function App() {
         QuerySnapshot.docs.map((doc) => ({
           id: doc.id,
           title: doc.data().title,
+
+          
         }))
       );
     });
