@@ -11,7 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.flex{
+  display: flex;
+}
 .viewBox {
   padding: 20px;
   width: 500px;

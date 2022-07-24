@@ -48,7 +48,7 @@ const Data = () => {
 
 
   return (
-    <div>
+    <div className="flex">
       {/* 記述 */}
       <div className="viewBox">
         {pokemon.map((item, index) => (
